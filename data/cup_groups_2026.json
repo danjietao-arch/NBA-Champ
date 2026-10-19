@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.nba.com/news/nba-cup-101",
+  "source_note": "Emirates NBA Cup 101，页面更新于 2026-08-12。淘汰赛日期、哪几场计入常规赛、以及未晋级球队在 12 月 6–7 日与 12 月 9–10 日各打两场，均以该文为准。原文把奇才写成 Washington Wizard。",
+  "groups": {
+    "EA": ["BKN", "DET", "MIL", "ORL", "TOR"],
+    "EB": ["CLE", "IND", "MIA", "NYK", "PHI"],
+    "EC": ["ATL", "BOS", "CHA", "CHI", "WAS"],
+    "WA": ["DAL", "DEN", "HOU", "PHX", "UTA"],
+    "WB": ["LAC", "MEM", "MIN", "NOP", "OKC"],
+    "WC": ["GSW", "LAL", "POR", "SAC", "SAS"]
+  }
+}

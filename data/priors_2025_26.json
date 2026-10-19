@@ -1,0 +1,313 @@
+{
+  "season": "2025-26",
+  "source_url": "https://www.basketball-reference.com/leagues/NBA_2026_ratings.html",
+  "fetched_on": "2026-10-19",
+  "fields": "Unadjusted ORtg, DRtg and NRtg per 100 possessions, plus the W-L on that table. Theta uses the published NRtg, not the adjusted NRtg/A column.",
+  "failed_preferred_source": {
+    "role": "NBA.com / stats.nba.com 2025-26 advanced team ratings",
+    "url": "https://stats.nba.com/stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Advanced&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2025-26&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&TwoWay=0&VsConference=&VsDivision=",
+    "error": "curl timed out after 40 seconds with 0 bytes (HTTP 000). Snapshot uses the Basketball-Reference table above instead of leaving the prior blank."
+  },
+  "teams": [
+    {
+      "abbrev": "OKC",
+      "ortg": 118.94,
+      "drtg": 107.89,
+      "nrtg": 11.05,
+      "wins": 64,
+      "losses": 18,
+      "conference": "W",
+      "division": "NW"
+    },
+    {
+      "abbrev": "SAS",
+      "ortg": 119.68,
+      "drtg": 111.41,
+      "nrtg": 8.27,
+      "wins": 62,
+      "losses": 20,
+      "conference": "W",
+      "division": "SW"
+    },
+    {
+      "abbrev": "BOS",
+      "ortg": 120.82,
+      "drtg": 112.67,
+      "nrtg": 8.15,
+      "wins": 56,
+      "losses": 26,
+      "conference": "E",
+      "division": "A"
+    },
+    {
+      "abbrev": "DET",
+      "ortg": 118.05,
+      "drtg": 109.81,
+      "nrtg": 8.23,
+      "wins": 60,
+      "losses": 22,
+      "conference": "E",
+      "division": "C"
+    },
+    {
+      "abbrev": "NYK",
+      "ortg": 119.87,
+      "drtg": 113.4,
+      "nrtg": 6.47,
+      "wins": 53,
+      "losses": 29,
+      "conference": "E",
+      "division": "A"
+    },
+    {
+      "abbrev": "HOU",
+      "ortg": 118.69,
+      "drtg": 113.3,
+      "nrtg": 5.39,
+      "wins": 52,
+      "losses": 30,
+      "conference": "W",
+      "division": "SW"
+    },
+    {
+      "abbrev": "DEN",
+      "ortg": 122.63,
+      "drtg": 117.46,
+      "nrtg": 5.17,
+      "wins": 54,
+      "losses": 28,
+      "conference": "W",
+      "division": "NW"
+    },
+    {
+      "abbrev": "CHA",
+      "ortg": 119.5,
+      "drtg": 114.47,
+      "nrtg": 5.03,
+      "wins": 44,
+      "losses": 38,
+      "conference": "E",
+      "division": "SE"
+    },
+    {
+      "abbrev": "CLE",
+      "ortg": 119.26,
+      "drtg": 115.2,
+      "nrtg": 4.05,
+      "wins": 52,
+      "losses": 30,
+      "conference": "E",
+      "division": "C"
+    },
+    {
+      "abbrev": "MIN",
+      "ortg": 116.76,
+      "drtg": 113.68,
+      "nrtg": 3.08,
+      "wins": 49,
+      "losses": 33,
+      "conference": "W",
+      "division": "NW"
+    },
+    {
+      "abbrev": "TOR",
+      "ortg": 115.83,
+      "drtg": 113.25,
+      "nrtg": 2.58,
+      "wins": 46,
+      "losses": 36,
+      "conference": "E",
+      "division": "A"
+    },
+    {
+      "abbrev": "ATL",
+      "ortg": 116.13,
+      "drtg": 113.77,
+      "nrtg": 2.36,
+      "wins": 46,
+      "losses": 36,
+      "conference": "E",
+      "division": "SE"
+    },
+    {
+      "abbrev": "MIA",
+      "ortg": 116.71,
+      "drtg": 114.54,
+      "nrtg": 2.18,
+      "wins": 43,
+      "losses": 39,
+      "conference": "E",
+      "division": "SE"
+    },
+    {
+      "abbrev": "PHX",
+      "ortg": 115.51,
+      "drtg": 114.09,
+      "nrtg": 1.42,
+      "wins": 45,
+      "losses": 37,
+      "conference": "W",
+      "division": "P"
+    },
+    {
+      "abbrev": "LAL",
+      "ortg": 118.21,
+      "drtg": 116.48,
+      "nrtg": 1.74,
+      "wins": 53,
+      "losses": 29,
+      "conference": "W",
+      "division": "P"
+    },
+    {
+      "abbrev": "LAC",
+      "ortg": 117.45,
+      "drtg": 116.32,
+      "nrtg": 1.13,
+      "wins": 42,
+      "losses": 40,
+      "conference": "W",
+      "division": "P"
+    },
+    {
+      "abbrev": "ORL",
+      "ortg": 115.09,
+      "drtg": 114.54,
+      "nrtg": 0.56,
+      "wins": 45,
+      "losses": 37,
+      "conference": "E",
+      "division": "SE"
+    },
+    {
+      "abbrev": "POR",
+      "ortg": 114.54,
+      "drtg": 114.71,
+      "nrtg": -0.17,
+      "wins": 42,
+      "losses": 40,
+      "conference": "W",
+      "division": "NW"
+    },
+    {
+      "abbrev": "PHI",
+      "ortg": 115.4,
+      "drtg": 115.58,
+      "nrtg": -0.17,
+      "wins": 45,
+      "losses": 37,
+      "conference": "E",
+      "division": "A"
+    },
+    {
+      "abbrev": "GSW",
+      "ortg": 115.05,
+      "drtg": 115.6,
+      "nrtg": -0.55,
+      "wins": 37,
+      "losses": 45,
+      "conference": "W",
+      "division": "P"
+    },
+    {
+      "abbrev": "NOP",
+      "ortg": 114.4,
+      "drtg": 119.05,
+      "nrtg": -4.65,
+      "wins": 26,
+      "losses": 56,
+      "conference": "W",
+      "division": "SW"
+    },
+    {
+      "abbrev": "CHI",
+      "ortg": 113.01,
+      "drtg": 118.16,
+      "nrtg": -5.14,
+      "wins": 31,
+      "losses": 51,
+      "conference": "E",
+      "division": "C"
+    },
+    {
+      "abbrev": "DAL",
+      "ortg": 111.23,
+      "drtg": 116.66,
+      "nrtg": -5.43,
+      "wins": 26,
+      "losses": 56,
+      "conference": "W",
+      "division": "SW"
+    },
+    {
+      "abbrev": "MEM",
+      "ortg": 113.05,
+      "drtg": 118.95,
+      "nrtg": -5.9,
+      "wins": 25,
+      "losses": 57,
+      "conference": "W",
+      "division": "SW"
+    },
+    {
+      "abbrev": "MIL",
+      "ortg": 112.9,
+      "drtg": 119.4,
+      "nrtg": -6.49,
+      "wins": 32,
+      "losses": 50,
+      "conference": "E",
+      "division": "C"
+    },
+    {
+      "abbrev": "IND",
+      "ortg": 111.01,
+      "drtg": 118.97,
+      "nrtg": -7.96,
+      "wins": 19,
+      "losses": 63,
+      "conference": "E",
+      "division": "C"
+    },
+    {
+      "abbrev": "UTA",
+      "ortg": 114.18,
+      "drtg": 122.39,
+      "nrtg": -8.21,
+      "wins": 22,
+      "losses": 60,
+      "conference": "W",
+      "division": "NW"
+    },
+    {
+      "abbrev": "SAC",
+      "ortg": 111.56,
+      "drtg": 121.63,
+      "nrtg": -10.07,
+      "wins": 22,
+      "losses": 60,
+      "conference": "W",
+      "division": "P"
+    },
+    {
+      "abbrev": "BKN",
+      "ortg": 108.84,
+      "drtg": 119.11,
+      "nrtg": -10.27,
+      "wins": 20,
+      "losses": 62,
+      "conference": "E",
+      "division": "A"
+    },
+    {
+      "abbrev": "WAS",
+      "ortg": 111.0,
+      "drtg": 122.84,
+      "nrtg": -11.84,
+      "wins": 17,
+      "losses": 65,
+      "conference": "E",
+      "division": "SE"
+    }
+  ]
+}

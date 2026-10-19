@@ -1,9 +1,25 @@
-# NBA-Champ
-2027 NBA Champ
-echo "# NBA-Champ" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/danjietao-arch/NBA-Champ.git
-git push -u origin main
+# 2026—27 NBA 总冠军概率（赛前）
+
+私人研究用的规则引擎和一份参数写死的赛前蒙特卡洛。页面和 JSON 都标着：
+
+**参数写死，尚未用历史拟合**
+
+这一版只做两件事：
+
+1. 规则引擎：战绩与种子、两队平分的简化、三队及以上的近似、附加赛、七战四胜的 2-2-1-1-1、官方淘汰和 0—3 仍未出局的区别。
+2. 赛季开始前的一次模拟。实力分是 2025—26 的净效率。没有已核实幅度的休赛期调整。
+
+不做 Polymarket 对照，不做 walk-forward，不做伤病文本抓取。
+
+这不是投注建议。统计只用于私人研究，页面署名 NBA.com。
+
+## 运行
+
+```bash
+python3 -m pytest -q
+python3 scripts/build_preseason_snapshot.py
+```
+
+模拟次数和随机种子写在 `src/nba2027/parameters.py`。输出在 `output/preseason-2026-27.json` 和 `output/preseason-2026-27.html`。概率只来自这次运行，不在文档里预填。
+
+若 2025—26 先验缺失，脚本仍会写出页面，概率栏为「待采集」，并写上没有打开的地址。

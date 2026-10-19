@@ -1,0 +1,10 @@
+[project]
+name = "nba-2027-champion"
+version = "0.1.0"
+description = "2026-27 NBA championship preseason simulator with hardcoded parameters"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

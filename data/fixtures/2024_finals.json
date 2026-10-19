@@ -1,0 +1,16 @@
+{
+  "name": "2024 NBA Finals",
+  "higher_seed": "BOS",
+  "lower_seed": "DAL",
+  "sources": [
+    "https://www.basketball-reference.com/playoffs/NBA_2024.html"
+  ],
+  "note": "Basketball-Reference lists the road team, then @, then the home team. Boston hosts games 1, 2 and 5. Series ends 4-1, so games 6 and 7 were not played. The home pattern for those unplayed games is still 2-2-1-1-1.",
+  "games": [
+    {"game": 1, "home": "BOS", "away": "DAL", "home_score": 107, "away_score": 89},
+    {"game": 2, "home": "BOS", "away": "DAL", "home_score": 105, "away_score": 98},
+    {"game": 3, "home": "DAL", "away": "BOS", "home_score": 99, "away_score": 106},
+    {"game": 4, "home": "DAL", "away": "BOS", "home_score": 122, "away_score": 84},
+    {"game": 5, "home": "BOS", "away": "DAL", "home_score": 106, "away_score": 88}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "description": "主预测只纳入已核实、并且写明幅度的休赛期调整。未证实传言只可作低置信度情景，不进主预测。本文件没有已核实条目，因此没有球队因为休赛期变动被改写实力。",
+  "schema": ["team_id", "target", "direction", "magnitude", "effective_date", "source", "confidence", "recorded_by"],
+  "entries": [],
+  "scenarios": []
+}
