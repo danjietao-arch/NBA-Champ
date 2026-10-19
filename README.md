@@ -1,15 +1,10 @@
 # 2026—27 NBA 总冠军概率（赛前）
 
-私人研究用的规则引擎和一份参数写死的赛前蒙特卡洛。页面和 JSON 都标着：
+私人研究页面。30 队的夺冠频率来自种子 `20261019` 的那次蒙特卡洛。赛前还没有 2026—27 的比赛，所以 walk-forward 选出的 `w` 在这份快照里是 0，频率没有重跑。系列赛标准差仍是 3.0。
 
-**参数写死，尚未用历史拟合**
+页面标明：**w 已由 walk-forward 替换；系列赛标准差仍是 3.0**
 
-这一版只做两件事：
-
-1. 规则引擎：战绩与种子、两队平分的简化、三队及以上的近似、附加赛、七战四胜的 2-2-1-1-1、官方淘汰和 0—3 仍未出局的区别。
-2. 赛季开始前的一次模拟。实力分是 2025—26 的净效率。没有已核实幅度的休赛期调整。
-
-不做 Polymarket 对照，不做 walk-forward，不做伤病文本抓取。
+对照只读 [NBA: 2027 Champion](https://polymarket.com/event/nba-2027-champion) 的总冠军 YES。订单簿报价不进入模型。
 
 这不是投注建议。统计只用于私人研究，页面署名 NBA.com。
 
@@ -18,8 +13,10 @@
 ```bash
 python3 -m pytest -q
 python3 scripts/build_preseason_snapshot.py
+python3 scripts/run_walk_forward.py
+python3 scripts/build_board.py
+python3 scripts/hourly_quotes.py
+python3 scripts/recompute_after_games.py
 ```
 
-模拟次数和随机种子写在 `src/nba2027/parameters.py`。输出在 `output/preseason-2026-27.json` 和 `output/preseason-2026-27.html`。概率只来自这次运行，不在文档里预填。
-
-若 2025—26 先验缺失，脚本仍会写出页面，概率栏为「待采集」，并写上没有打开的地址。
+`build_preseason_snapshot.py` 重跑模拟。`build_board.py` 把已经审过的冠军市场和 walk-forward 说明贴上当前快照。没有 2026—27 逐场结果时，`recompute_after_games.py` 不改概率。

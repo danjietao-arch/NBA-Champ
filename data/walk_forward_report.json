@@ -1,0 +1,147 @@
+{
+  "attempted": true,
+  "seasons": [
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "n_sims": 800,
+  "seed": 20261019,
+  "series_grid": [
+    1.5,
+    3.0,
+    5.0
+  ],
+  "k_grid": [
+    "先验",
+    40,
+    120,
+    400
+  ],
+  "control": {
+    "series_shock_sd": 3.0,
+    "w": "0，沿用赛前先验"
+  },
+  "market_prices_used": false,
+  "form": "本赛季表现用逐场分差的场均，不是每百回合。日志里没有回合数，所以没有把分差换算成进攻防守效率。",
+  "note": "对照的是参数写死的同一模拟器。一个赛季不能证明模型优于市场。市场报价没有进入拟合。",
+  "data_fetched": true,
+  "replaced_parameters": true,
+  "problems": [
+    "2023-24 的种子近似和真实首轮对阵不一致，季后赛时点没有拿来打分。",
+    "2024-25 的种子近似和真实首轮对阵不一致，季后赛时点没有拿来打分。",
+    "2025-26 的种子近似和真实首轮对阵不一致，季后赛时点没有拿来打分。"
+  ],
+  "bracket_ok": {
+    "2023-24": false,
+    "2024-25": false,
+    "2025-26": false
+  },
+  "champions_from_logs": {
+    "2023-24": "BOS",
+    "2024-25": "OKC",
+    "2025-26": "NYK"
+  },
+  "checkpoint_count": 15,
+  "candidates": [
+    {
+      "series_shock_sd": 1.5,
+      "w": "0，沿用赛前先验",
+      "k": null,
+      "log_loss": 2.481753,
+      "brier": 0.961422
+    },
+    {
+      "series_shock_sd": 1.5,
+      "w": "已赛场次 / (已赛场次 + 40)",
+      "k": 40,
+      "log_loss": 1.990521,
+      "brier": 0.812668
+    },
+    {
+      "series_shock_sd": 1.5,
+      "w": "已赛场次 / (已赛场次 + 120)",
+      "k": 120,
+      "log_loss": 2.192837,
+      "brier": 0.878903
+    },
+    {
+      "series_shock_sd": 1.5,
+      "w": "已赛场次 / (已赛场次 + 400)",
+      "k": 400,
+      "log_loss": 2.369374,
+      "brier": 0.928949
+    },
+    {
+      "series_shock_sd": 3.0,
+      "w": "0，沿用赛前先验",
+      "k": null,
+      "log_loss": 2.397748,
+      "brier": 0.951901
+    },
+    {
+      "series_shock_sd": 3.0,
+      "w": "已赛场次 / (已赛场次 + 40)",
+      "k": 40,
+      "log_loss": 1.971279,
+      "brier": 0.816287
+    },
+    {
+      "series_shock_sd": 3.0,
+      "w": "已赛场次 / (已赛场次 + 120)",
+      "k": 120,
+      "log_loss": 2.129931,
+      "brier": 0.871376
+    },
+    {
+      "series_shock_sd": 3.0,
+      "w": "已赛场次 / (已赛场次 + 400)",
+      "k": 400,
+      "log_loss": 2.298847,
+      "brier": 0.923053
+    },
+    {
+      "series_shock_sd": 5.0,
+      "w": "0，沿用赛前先验",
+      "k": null,
+      "log_loss": 2.419295,
+      "brier": 0.945195
+    },
+    {
+      "series_shock_sd": 5.0,
+      "w": "已赛场次 / (已赛场次 + 40)",
+      "k": 40,
+      "log_loss": 1.98853,
+      "brier": 0.819232
+    },
+    {
+      "series_shock_sd": 5.0,
+      "w": "已赛场次 / (已赛场次 + 120)",
+      "k": 120,
+      "log_loss": 2.12434,
+      "brier": 0.871517
+    },
+    {
+      "series_shock_sd": 5.0,
+      "w": "已赛场次 / (已赛场次 + 400)",
+      "k": 400,
+      "log_loss": 2.294957,
+      "brier": 0.916157
+    }
+  ],
+  "control_log_loss": 2.397748,
+  "control_brier": 0.951901,
+  "best_log_loss": 1.971279,
+  "best_brier": 0.816287,
+  "best_series_shock_sd": 3.0,
+  "best_w": "已赛场次 / (已赛场次 + 40)",
+  "best_k": 40,
+  "summary": "已用最近三个赛季的逐场日志做 walk-forward（冠军来自系列赛记录：2023-24 BOS、2024-25 OKC、2025-26 NYK）。写死参数的对数损失 2.3977、Brier 0.9519。网格里最好的是系列赛标准差 3.0、w 为已赛场次 / (已赛场次 + 40)，对数损失 1.9713、Brier 0.8163。两项都更好。w 改为已赛场次 / (已赛场次 + 40)。系列赛标准差仍是 3.0，没有改。赛前一场未打，w 为 0，所以这份 30 队频率没有重跑。这些赛季的季后赛时点没有打分，因为种子近似和真实首轮对阵不一致：2023-24、2024-25、2025-26。一个赛季不能证明模型优于市场。",
+  "failures": [
+    "https://stats.nba.com/stats/leaguegamelog 在 2026-10-19 请求 2025-26 常规赛时，25 秒后超时，返回 0 字节。逐场日志改用 Basketball-Reference 的月份赛程，没有补造比赛。"
+  ],
+  "sources": [
+    "https://www.basketball-reference.com/leagues/NBA_{year}_games-{month}.html",
+    "https://www.basketball-reference.com/leagues/NBA_{year}_ratings.html"
+  ]
+}

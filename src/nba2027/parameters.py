@@ -1,11 +1,15 @@
-"""Hardcoded simulator parameters.
+"""Simulator parameters.
 
-These constants are not estimated from historical game logs. Walk-forward
-fitting is out of scope. Every published snapshot must use PARAMETER_STATUS
-verbatim.
+Logistic scale, home court, and the back-to-back penalty stay hardcoded.
+W_K was selected by the three-season walk-forward. Series shock stayed 3.0.
+At zero games played, w is 0, so a preseason run does not use W_K.
 """
 
-PARAMETER_STATUS = "参数写死，尚未用历史拟合"
+# w = games_played / (games_played + W_K). Chosen because that pair beat the
+# prior-only simulator on both log loss and Brier. At zero games, w is 0, so
+# the published preseason frequencies do not change. Series shock stayed 3.0.
+PARAMETER_STATUS = "w 已由 walk-forward 替换；系列赛标准差仍是 3.0"
+W_K = 40
 
 MODEL_VERSION = "preseason-hardcoded-1"
 

@@ -1,0 +1,326 @@
+{
+  "2243296": {
+    "quote_status": "valid",
+    "bid": 0.01,
+    "ask": 0.011,
+    "mid": 0.0105,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243297": {
+    "quote_status": "valid",
+    "bid": 0.05,
+    "ask": 0.06,
+    "mid": 0.055,
+    "spread": 0.01,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243298": {
+    "quote_status": "one_sided",
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "book_timestamp": "2026-10-19T13:10:16Z",
+    "error": null
+  },
+  "2243299": {
+    "quote_status": "valid",
+    "bid": 0.004,
+    "ask": 0.005,
+    "mid": 0.0045,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243300": {
+    "quote_status": "valid",
+    "bid": 0.001,
+    "ask": 0.002,
+    "mid": 0.0015,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:44Z",
+    "error": null
+  },
+  "2243301": {
+    "quote_status": "valid",
+    "bid": 0.026,
+    "ask": 0.027,
+    "mid": 0.0265,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243302": {
+    "quote_status": "valid",
+    "bid": 0.031,
+    "ask": 0.032,
+    "mid": 0.0315,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243303": {
+    "quote_status": "valid",
+    "bid": 0.019,
+    "ask": 0.02,
+    "mid": 0.0195,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243304": {
+    "quote_status": "valid",
+    "bid": 0.038,
+    "ask": 0.039,
+    "mid": 0.0385,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243305": {
+    "quote_status": "valid",
+    "bid": 0.001,
+    "ask": 0.002,
+    "mid": 0.0015,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:43Z",
+    "error": null
+  },
+  "2243306": {
+    "quote_status": "valid",
+    "bid": 0.07,
+    "ask": 0.08,
+    "mid": 0.075,
+    "spread": 0.01,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243307": {
+    "quote_status": "valid",
+    "bid": 0.007,
+    "ask": 0.008,
+    "mid": 0.0075,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243308": {
+    "quote_status": "valid",
+    "bid": 0.097,
+    "ask": 0.098,
+    "mid": 0.0975,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243309": {
+    "quote_status": "valid",
+    "bid": 0.04,
+    "ask": 0.05,
+    "mid": 0.045,
+    "spread": 0.01,
+    "book_timestamp": "2026-10-19T13:10:32Z",
+    "error": null
+  },
+  "2243310": {
+    "quote_status": "valid",
+    "bid": 0.008,
+    "ask": 0.009,
+    "mid": 0.0085,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243311": {
+    "quote_status": "valid",
+    "bid": 0.006,
+    "ask": 0.007,
+    "mid": 0.0065,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243312": {
+    "quote_status": "valid",
+    "bid": 0.032,
+    "ask": 0.033,
+    "mid": 0.0325,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:09Z",
+    "error": null
+  },
+  "2243313": {
+    "quote_status": "valid",
+    "bid": 0.01,
+    "ask": 0.011,
+    "mid": 0.0105,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:31Z",
+    "error": null
+  },
+  "2243314": {
+    "quote_status": "valid",
+    "bid": 0.026,
+    "ask": 0.027,
+    "mid": 0.0265,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:36Z",
+    "error": null
+  },
+  "2243315": {
+    "quote_status": "valid",
+    "bid": 0.002,
+    "ask": 0.003,
+    "mid": 0.0025,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:06Z",
+    "error": null
+  },
+  "2243316": {
+    "quote_status": "valid",
+    "bid": 0.03,
+    "ask": 0.031,
+    "mid": 0.0305,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:11:10Z",
+    "error": null
+  },
+  "2243317": {
+    "quote_status": "valid",
+    "bid": 0.001,
+    "ask": 0.002,
+    "mid": 0.0015,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:22Z",
+    "error": null
+  },
+  "2243318": {
+    "quote_status": "valid",
+    "bid": 0.056,
+    "ask": 0.057,
+    "mid": 0.0565,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:56Z",
+    "error": null
+  },
+  "2243319": {
+    "quote_status": "valid",
+    "bid": 0.002,
+    "ask": 0.003,
+    "mid": 0.0025,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:31Z",
+    "error": null
+  },
+  "2243320": {
+    "quote_status": "valid",
+    "bid": 0.19,
+    "ask": 0.2,
+    "mid": 0.195,
+    "spread": 0.01,
+    "book_timestamp": "2026-10-19T13:10:43Z",
+    "error": null
+  },
+  "2243321": {
+    "quote_status": "valid",
+    "bid": 0.005,
+    "ask": 0.006,
+    "mid": 0.0055,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:59Z",
+    "error": null
+  },
+  "2243322": {
+    "quote_status": "valid",
+    "bid": 0.012,
+    "ask": 0.013,
+    "mid": 0.0125,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:59Z",
+    "error": null
+  },
+  "2243323": {
+    "quote_status": "valid",
+    "bid": 0.001,
+    "ask": 0.002,
+    "mid": 0.0015,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:16Z",
+    "error": null
+  },
+  "2243324": {
+    "quote_status": "valid",
+    "bid": 0.22,
+    "ask": 0.23,
+    "mid": 0.225,
+    "spread": 0.01,
+    "book_timestamp": "2026-10-19T13:10:55Z",
+    "error": null
+  },
+  "2243325": {
+    "quote_status": "valid",
+    "bid": 0.008,
+    "ask": 0.009,
+    "mid": 0.0085,
+    "spread": 0.001,
+    "book_timestamp": "2026-10-19T13:10:36Z",
+    "error": null
+  },
+  "2243326": {
+    "quote_status": "missing",
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "book_timestamp": null,
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "2243327": {
+    "quote_status": "missing",
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "book_timestamp": null,
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "2243328": {
+    "quote_status": "missing",
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "book_timestamp": null,
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "2243329": {
+    "quote_status": "missing",
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "book_timestamp": null,
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "2243330": {
+    "quote_status": "missing",
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "book_timestamp": null,
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "2243331": {
+    "quote_status": "missing",
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "book_timestamp": null,
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+}
